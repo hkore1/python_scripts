@@ -1,2 +1,2 @@
-# Scripts
-A place to store various scripts (mostly generalised bioinformatics scripts)
+# Python Scripts
+A place to store various Python scripts (mostly general bioinformatics scripts)
