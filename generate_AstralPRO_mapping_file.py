@@ -1,5 +1,9 @@
 #!/usr/bin/env python
 
+# Author: Harvey Orel
+# Description: Generates a mapping file for Astral-Pro from a single input fasta alignment with allele sequences (_h1 and _h2 suffixes)
+#   Output is an '_apro_mapping.txt' file. Can be run on a batch of alignments as per https://github.com/hkore1/TargetAllelePhasing/blob/main/script4_create_alleles_alignments.sh
+
 import argparse
 
 # create an ArgumentParser object
