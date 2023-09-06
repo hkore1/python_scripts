@@ -41,9 +41,9 @@ for filename in os.listdir(input_directory):
                 if '_h1' not in label and '_h2' not in label:
                     print("Homozygote %s detected in file %s" % (label, basename))
                     # duplicate sequence
-                    label_h1 = re.sub(r'\s', '_h1 ', label, count=1)
+                    label_h1 = label + '_h1' #re.sub(r'\s', '_h1 ', label, count=1)
                     sequence_h1 = sequence
-                    label_h2 = re.sub(r'\s', '_h2 ', label, count=1)
+                    label_h2 = label + '_h2' #re.sub(r'\s', '_h2 ', label, count=1)
                     sequence_h2 = sequence
                     # update labels
                     seq_parts[0] = label_h1
