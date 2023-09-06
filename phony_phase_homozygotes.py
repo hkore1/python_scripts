@@ -5,7 +5,7 @@
 # Date: 26 Apr 2023
 #
 # Description: Duplicates homozygote samples (from the Allele Phasing workflow) so that they have 2 identical copies, labelled with
-#               '_h1' and '_h2' for better amalgamation of phylogenetic results
+#               '_h1' and '_h2'.
 #
 # Note: Input is a directory of fasta alignments. Output is to "PhonyPhasedAlignments/" in launch directory;
 #
